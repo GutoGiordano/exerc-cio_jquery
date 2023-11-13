@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="shortcut icon" type="image/png" href="./img/check_25643.svg"> <!--Inserindo ícone na aba do navegador-->
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="./img/check_25643.svg" alt="imagem de checagem">
+        <h1>Lista de tarefas</h1>
+    </header>
+    <form>
+        <input id="criaLinha" type="text" required placeholder="Nome da tarefa">
+        <button id="addLinha" type="submit">+</button>
+    </form>
+    <ul id="addLista"></ul> <!--Lista com elementos ordenados-->
+    <p>
+        Ao concluir uma tarefa, click nela e a risque de sua lista!
+    </p>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!--Inserindo o jQuery-->
+    <script src="main.js"></script> <!--Inserindo o JavaScript-->
+</body>
+</html>

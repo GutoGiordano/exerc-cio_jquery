@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BDDEB8;
+    font-family: 'Itim', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* O vh controla a altura da janela no navegador e isso melhorou a minha centralização de conteúdo*/
+}
+
+header {
+    display: flex;
+    justify-content: center; /* alinha os itens horizontalmente no centro */
+    align-items: flex-end; /* alinha os itens na base */
+}
+
+header img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+}
+
+input::placeholder { /* margem interna do placeholder */
+    padding-left: 6px;
+}
+
+button {
+    height: 30px;
+    width: 60px;
+    color: #fff;
+    background-color: #14BC05;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    cursor: pointer;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: small;
+    color: #3c3f3c;
+}
+
+.completo { /* Editando o risco nos itens */
+    text-decoration: line-through;
+    color: #0511bc;
+}
